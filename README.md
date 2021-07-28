@@ -6,4 +6,4 @@ The files were created during the class "Webentwicklung" at the University of Gr
 Relevant for information visualisation purposes are the following files:
 - transcr.html
 - gr1.html
-- sem_anno-html
+- sem_anno.html
