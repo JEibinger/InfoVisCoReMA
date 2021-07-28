@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>CoReMA Data Visualisation - Semantic Annotation Data</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.tt').tooltip(); 
+        });
+        </script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>           
+      <link rel="stylesheet" type="text/css" href="css/all.css"/>
+      <meta id="DescEn" lang="en" name="description_en" content="Visualisations of data from the CoReMA project"/>
+      <meta id="DescDe" lang="de" name="description_de" content="Datenvisualisierungen aus dem CoReMA Projekt"/>
+      <meta id="Key" name="keywords" content="medieval, recipes, cooking, manuscript, transcription, annotation, semantic web, data visualisation">
+      <meta itemscope itemtype="https://schema.org/Person" name="author" content="Julia Eibinger"/>
+      
+	</head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Visualisation of CoReMA data</h1>
+                    <h2>Semantics and Annotation</h2>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid rounded logo" src="pic/logo.png" title="page logo" alt="CoReMA visualisation page logo" width="100" height="100">
+                </div>
+            </div>
+        </header>
+        <nav class="nav navbar-expand-md bg-light sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="method.html">Method</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sem_anno.html">Semantic Annotation</a>
+                </li><li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Transcription
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="transcr.html">Introduction</a>
+                    <a class="dropdown-item" href="gr1.html">Graz, Ms. 1609</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main class="container">
+            <section class="row mt-4">
+                <div class="col-md-4"><h2>Semantic annotations in CoReMA</h2></div>
+                <div class="col-md-8">
+                    <p>The <a class="tt" href="#" data-toggle="tooltip" title="tagging words and phrases with semantic value" data-placement="top">semantic annotation</a> of text passages, phrases or single words in the recipes is done manually on the basis of a normalized version of the recipe texts, resulting from <a href="transcr.html#tran-cor">the transcription</a>. It lays the foundation for the comparison of the cooking recipe texts handed down in various languages. At this stage Early New High German, Middle French, and Medieval Latin texts are analysed for text relationships, dependencies, and variance between manuscripts.</p>
+                    <p>Although some manuscripts annotations already contain the <a class="tt" href="#" data-toggle="tooltip" title="manually annotated tags" data-placement="top">macrostructure</a>, the following visualisations focus only on ingredients, tools and dishes for the moment.</p>
+                </div>
+            </section>
+            <section class="row mt-4">
+                <div class="col-md-4"><h2>Comparing ingredients according to their FAO category</h2></div>
+                <div class="col-md-8"><p>During the annotation workflow, the different spellings of the ingredients, their modern translations and their corresponding Wikidata concept are noted in a table as well as their <a href="http://www.fao.org/gsfaonline/foods/index.html?print=true">FAO category</a>:</p>
+                    <div class="table-responsive"><table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col"><a class="tt" href="#" data-toggle="tooltip" title="Early New High German" data-placement="top">deu-enh</a></th>
+                            <th scope="col"><a class="tt" href="#" data-toggle="tooltip" title="New High German" data-placement="top">deu</a></th>
+                            <th scope="col"><a class="tt" href="#" data-toggle="tooltip" title="Modern English" data-placement="top">eng</a></th>
+                            <th scope="col"><a class="tt" href="#" data-toggle="tooltip" title="Food and Agriculture Organization of the United Nations" data-placement="top">FAO category</a></th>
+                            <th scope="col"><a href="https://www.wikidata.org">Wikidata</a> number</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">äpfelen</th>
+                            <td>Apfel</td>
+                            <td>apple</td>
+                            <td>5</td>
+                            <td>Q89</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">äppfel</th>
+                            <td>Apfel</td>
+                            <td>apple</td>
+                            <td>5</td>
+                            <td>Q89</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">apphellen</th>
+                            <td>Apfel</td>
+                            <td>apple</td>
+                            <td>5</td>
+                            <td>Q89</td>
+                          </tr>
+                        </tbody>
+                      </table></div>
+                </div>
+            </section>
+            <section class="row mt-4">
+                <div class="col-md-4"><h2>Comparison of mentioned fats</h2></div>
+                <div class="col-md-8"><p>The <a href="http://www.fao.org/gsfaonline/foods/index.html?print=true">FAO categories</a> suggest certain approaches to analysis. One is the comparison of the mentioned ingredients in the recipes, that share the same category. Fats are used to fry, roast and enhance flavour - also in medieval recipes. But which kind of fat was used the most?</p></div>
+                <div class="col-md-12 pie" id="fatVis"></div>
+            </section>
+            <section class="row mt-4">
+                <div class="col-md-4"><h2>Comparison of mentioned spices overall</h2></div>
+                <div class="col-md-8"><p>The explicit use of spices in the recipes is an interesting topic. Most spices are not mentioned by name, rather the advice is to add just that - spice.</p>
+                <p>The second most mentioned - saffron surpisingly enough - is mentioned only half as many times, closely followed in numbers by third and fourth place, table salt and vinegar.</p>
+                <p>From close reading the recipes, we know vinegar is mainly used in sauce recipes and to add a tangy flavour in general.</p>
+            </div>
+                <div class="col-md-12 pie" id="spicy"></div>
+            </section>
+            <section class="row mt-4">
+                <div class="col-md-4"><h2>Distribution of most frquently used spices</h2></div>
+                <div class="col-md-8"><p>The pie chart above shows the top ten spices overall in the collections. But how are they distributed across the collections?</p>
+                <p>Comparisons like these give clues regarding spice use and thus availability in certain regions and time periods to which manuscripts can be attributed.</p></div>
+                <div class="col-md-12 pie" id="spicyTop"></div>
+            </section>
+            </main>
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-12" itemscope itemtype="https://schema.org/Person">
+                    <h6>Contact Information</h6>
+                    <p><span itemprop="name">Julia Eibinger</span><br/>
+                    <span itemprop="email">ju.eibinger@gmail.com</span></p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/sem_corema.js"></script> 
+    </body>
+</html>

@@ -1,0 +1,842 @@
+{
+    "011r": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 15.0
+    },
+    "011v": {
+        "final": 0.0,
+        "initial": 21.0,
+        "medial": 8.0
+    },
+    "012r": {
+        "final": 0.0,
+        "initial": 28.0,
+        "medial": 12.0
+    },
+    "012v": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 3.0
+    },
+    "013r": {
+        "final": 1.0,
+        "initial": 11.0,
+        "medial": 18.0
+    },
+    "013v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 10.0
+    },
+    "014r": {
+        "final": 1.0,
+        "initial": 13.0,
+        "medial": 10.0
+    },
+    "014v": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 9.0
+    },
+    "015r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 10.0
+    },
+    "015v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 11.0
+    },
+    "016r": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 2.0
+    },
+    "016v": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 12.0
+    },
+    "017r": {
+        "final": 1.0,
+        "initial": 10.0,
+        "medial": 10.0
+    },
+    "017v": {
+        "final": 0.0,
+        "initial": 28.0,
+        "medial": 9.0
+    },
+    "018r": {
+        "final": 0.0,
+        "initial": 28.0,
+        "medial": 15.0
+    },
+    "018v": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 16.0
+    },
+    "019r": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 20.0
+    },
+    "019v": {
+        "final": 1.0,
+        "initial": 23.0,
+        "medial": 11.0
+    },
+    "020r": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 11.0
+    },
+    "020v": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 21.0
+    },
+    "021r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 15.0
+    },
+    "021v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 13.0
+    },
+    "022r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 21.0
+    },
+    "022v": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 15.0
+    },
+    "023r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 9.0
+    },
+    "023v": {
+        "final": 1.0,
+        "initial": 20.0,
+        "medial": 22.0
+    },
+    "024r": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 10.0
+    },
+    "024v": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 11.0
+    },
+    "025r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 13.0
+    },
+    "025v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 13.0
+    },
+    "026r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 29.0
+    },
+    "026v": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 16.0
+    },
+    "027r": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 17.0
+    },
+    "027v": {
+        "final": 0.0,
+        "initial": 28.0,
+        "medial": 13.0
+    },
+    "028r": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 17.0
+    },
+    "028v": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 11.0
+    },
+    "029r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 19.0
+    },
+    "029v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 16.0
+    },
+    "030r": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 10.0
+    },
+    "030v": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 19.0
+    },
+    "031r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 14.0
+    },
+    "031v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 13.0
+    },
+    "032r": {
+        "final": 0.0,
+        "initial": 10.0,
+        "medial": 3.0
+    },
+    "032v": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 7.0
+    },
+    "033r": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 15.0
+    },
+    "033v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 15.0
+    },
+    "034r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 9.0
+    },
+    "034v": {
+        "final": 0.0,
+        "initial": 9.0,
+        "medial": 17.0
+    },
+    "035r": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 17.0
+    },
+    "035v": {
+        "final": 0.0,
+        "initial": 23.0,
+        "medial": 9.0
+    },
+    "036r": {
+        "final": 0.0,
+        "initial": 23.0,
+        "medial": 15.0
+    },
+    "036v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 16.0
+    },
+    "037r": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 10.0
+    },
+    "037v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 11.0
+    },
+    "038r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 11.0
+    },
+    "038v": {
+        "final": 0.0,
+        "initial": 9.0,
+        "medial": 10.0
+    },
+    "039r": {
+        "final": 0.0,
+        "initial": 10.0,
+        "medial": 8.0
+    },
+    "039v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 4.0
+    },
+    "040r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 13.0
+    },
+    "040v": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 9.0
+    },
+    "041r": {
+        "final": 1.0,
+        "initial": 14.0,
+        "medial": 12.0
+    },
+    "041v": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 11.0
+    },
+    "042r": {
+        "final": 0.0,
+        "initial": 29.0,
+        "medial": 13.0
+    },
+    "042v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 12.0
+    },
+    "043r": {
+        "final": 0.0,
+        "initial": 21.0,
+        "medial": 6.0
+    },
+    "043v": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 16.0
+    },
+    "044r": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 18.0
+    },
+    "044v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 13.0
+    },
+    "045r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 14.0
+    },
+    "045v": {
+        "final": 0.0,
+        "initial": 9.0,
+        "medial": 8.0
+    },
+    "046r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 17.0
+    },
+    "046v": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 13.0
+    },
+    "047r": {
+        "final": 1.0,
+        "initial": 9.0,
+        "medial": 13.0
+    },
+    "047v": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 14.0
+    },
+    "048r": {
+        "final": 0.0,
+        "initial": 21.0,
+        "medial": 13.0
+    },
+    "048v": {
+        "final": 1.0,
+        "initial": 20.0,
+        "medial": 11.0
+    },
+    "049r": {
+        "final": 1.0,
+        "initial": 25.0,
+        "medial": 24.0
+    },
+    "049v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 21.0
+    },
+    "050r": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 17.0
+    },
+    "050v": {
+        "final": 0.0,
+        "initial": 1.0,
+        "medial": 6.0
+    },
+    "051r": {
+        "final": 1.0,
+        "initial": 24.0,
+        "medial": 22.0
+    },
+    "051v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 25.0
+    },
+    "052r": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 20.0
+    },
+    "052v": {
+        "final": 1.0,
+        "initial": 11.0,
+        "medial": 11.0
+    },
+    "053r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 13.0
+    },
+    "053v": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 12.0
+    },
+    "054r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 26.0
+    },
+    "054v": {
+        "final": 0.0,
+        "initial": 19.0,
+        "medial": 19.0
+    },
+    "055r": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 25.0
+    },
+    "055v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 15.0
+    },
+    "056r": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 12.0
+    },
+    "056v": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 20.0
+    },
+    "057r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 17.0
+    },
+    "057v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 13.0
+    },
+    "058r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 14.0
+    },
+    "058v": {
+        "final": 1.0,
+        "initial": 17.0,
+        "medial": 18.0
+    },
+    "059r": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 13.0
+    },
+    "059v": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 15.0
+    },
+    "060r": {
+        "final": 1.0,
+        "initial": 11.0,
+        "medial": 10.0
+    },
+    "060v": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 19.0
+    },
+    "061r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 24.0
+    },
+    "061v": {
+        "final": 0.0,
+        "initial": 8.0,
+        "medial": 29.0
+    },
+    "062r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 28.0
+    },
+    "062v": {
+        "final": 0.0,
+        "initial": 24.0,
+        "medial": 9.0
+    },
+    "063r": {
+        "final": 0.0,
+        "initial": 33.0,
+        "medial": 17.0
+    },
+    "063v": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 18.0
+    },
+    "064r": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 13.0
+    },
+    "064v": {
+        "final": 0.0,
+        "initial": 10.0,
+        "medial": 16.0
+    },
+    "065r": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 8.0
+    },
+    "065v": {
+        "final": 0.0,
+        "initial": 9.0,
+        "medial": 23.0
+    },
+    "066r": {
+        "final": 0.0,
+        "initial": 9.0,
+        "medial": 19.0
+    },
+    "066v": {
+        "final": 0.0,
+        "initial": 10.0,
+        "medial": 8.0
+    },
+    "067r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 20.0
+    },
+    "067v": {
+        "final": 0.0,
+        "initial": 21.0,
+        "medial": 7.0
+    },
+    "068r": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 15.0
+    },
+    "068v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 9.0
+    },
+    "069r": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 24.0
+    },
+    "069v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 17.0
+    },
+    "070r": {
+        "final": 0.0,
+        "initial": 19.0,
+        "medial": 19.0
+    },
+    "070v": {
+        "final": 0.0,
+        "initial": 24.0,
+        "medial": 13.0
+    },
+    "071r": {
+        "final": 0.0,
+        "initial": 21.0,
+        "medial": 15.0
+    },
+    "071v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 5.0
+    },
+    "072r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 13.0
+    },
+    "072v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 15.0
+    },
+    "073r": {
+        "final": 0.0,
+        "initial": 18.0,
+        "medial": 14.0
+    },
+    "073v": {
+        "final": 0.0,
+        "initial": 19.0,
+        "medial": 24.0
+    },
+    "074r": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 7.0
+    },
+    "074v": {
+        "final": 0.0,
+        "initial": 19.0,
+        "medial": 22.0
+    },
+    "075r": {
+        "final": 0.0,
+        "initial": 19.0,
+        "medial": 11.0
+    },
+    "075v": {
+        "final": 0.0,
+        "initial": 24.0,
+        "medial": 18.0
+    },
+    "076r": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 11.0
+    },
+    "076v": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 11.0
+    },
+    "077r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 10.0
+    },
+    "077v": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 20.0
+    },
+    "078r": {
+        "final": 0.0,
+        "initial": 29.0,
+        "medial": 25.0
+    },
+    "078v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 23.0
+    },
+    "079r": {
+        "final": 0.0,
+        "initial": 23.0,
+        "medial": 25.0
+    },
+    "079v": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 27.0
+    },
+    "080r": {
+        "final": 0.0,
+        "initial": 17.0,
+        "medial": 20.0
+    },
+    "080v": {
+        "final": 0.0,
+        "initial": 13.0,
+        "medial": 13.0
+    },
+    "081r": {
+        "final": 0.0,
+        "initial": 11.0,
+        "medial": 25.0
+    },
+    "081v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 20.0
+    },
+    "082r": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 22.0
+    },
+    "082v": {
+        "final": 0.0,
+        "initial": 20.0,
+        "medial": 13.0
+    },
+    "083r": {
+        "final": 1.0,
+        "initial": 13.0,
+        "medial": 23.0
+    },
+    "083v": {
+        "final": 0.0,
+        "initial": 23.0,
+        "medial": 26.0
+    },
+    "084r": {
+        "final": 0.0,
+        "initial": 27.0,
+        "medial": 17.0
+    },
+    "084v": {
+        "final": 0.0,
+        "initial": 14.0,
+        "medial": 19.0
+    },
+    "085r": {
+        "final": 0.0,
+        "initial": 22.0,
+        "medial": 15.0
+    },
+    "085v": {
+        "final": 0.0,
+        "initial": 16.0,
+        "medial": 15.0
+    },
+    "086r": {
+        "final": 0.0,
+        "initial": 32.0,
+        "medial": 26.0
+    },
+    "086v": {
+        "final": 0.0,
+        "initial": 3.0,
+        "medial": 7.0
+    },
+    "087r": {
+        "final": 0.0,
+        "initial": 2.0,
+        "medial": 19.0
+    },
+    "087v": {
+        "final": 1.0,
+        "initial": 1.0,
+        "medial": 10.0
+    },
+    "088r": {
+        "final": 0.0,
+        "initial": 0.0,
+        "medial": 13.0
+    },
+    "088v": {
+        "final": 0.0,
+        "initial": 0.0,
+        "medial": 5.0
+    },
+    "089r": {
+        "final": 0.0,
+        "initial": 2.0,
+        "medial": 8.0
+    },
+    "089v": {
+        "final": 0.0,
+        "initial": 5.0,
+        "medial": 14.0
+    },
+    "090r": {
+        "final": 0.0,
+        "initial": 7.0,
+        "medial": 28.0
+    },
+    "090v": {
+        "final": 0.0,
+        "initial": 4.0,
+        "medial": 16.0
+    },
+    "091r": {
+        "final": 0.0,
+        "initial": 4.0,
+        "medial": 35.0
+    },
+    "091v": {
+        "final": 0.0,
+        "initial": 10.0,
+        "medial": 24.0
+    },
+    "092r": {
+        "final": 0.0,
+        "initial": 0.0,
+        "medial": 21.0
+    },
+    "092v": {
+        "final": 0.0,
+        "initial": 5.0,
+        "medial": 21.0
+    },
+    "093r": {
+        "final": 0.0,
+        "initial": 4.0,
+        "medial": 21.0
+    },
+    "093v": {
+        "final": 0.0,
+        "initial": 1.0,
+        "medial": 3.0
+    },
+    "094r": {
+        "final": 0.0,
+        "initial": 15.0,
+        "medial": 18.0
+    },
+    "094v": {
+        "final": 0.0,
+        "initial": 12.0,
+        "medial": 7.0
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>CoReMA Data Visualisation</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.tt').tooltip(); 
+        });
+        </script>        
+      <link rel="stylesheet" type="text/css" href="css/all.css"/>
+      <meta id="DescEn" lang="en" name="description_en" content="Visualisations of data from the CoReMA project"/>
+      <meta id="DescDe" lang="de" name="description_de" content="Datenvisualisierungen aus dem CoReMA Projekt"/>
+      <meta id="Key" name="keywords" content="medieval, recipes, cooking, manuscript, transcription, annotation, semantic web, data visualisation">
+      <meta itemscope itemtype="https://schema.org/Person" name="author" content="Julia Eibinger"/>
+      
+	</head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Visualisation of CoReMA data</h1>
+                    <h2>Cooking Recipes of the Middle Ages - the data</h2>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid rounded logo" src="pic/logo.png" title="page logo" alt="CoReMA visualisation page logo" width="100" height="100">
+                </div>
+            </div>
+        </header>
+        <nav class="nav navbar-expand-md bg-light sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="method.html">Method</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sem_anno.html">Semantic Annotation</a>
+                </li><li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Transcription
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="transcr.html">Introduction</a>
+                    <a class="dropdown-item" href="gr1.html">Graz, Ms. 1609</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main class="container">
+            <section class="row mt-4" id="intro">
+                <div class="col-md-4"><h2>Introduction</h2></div>
+                <div class="col-md-8"><p>The <a href="http://gams.uni-graz.at/context:corema">CoReMA project</a> is putting an interdisciplinary focus on the cross-cultural research of medieval cooking recipes and their interrelation.</p></div>
+            </section>    
+            
+            <section class="row mt-4" id="info-gen">
+                <div class="col-md-4"><h2>Data Visualisation in the humanities</h2></div>
+                <div class="col-md-8">
+                    <p><a class="tt" href="#" data-toggle="tooltip" title="graphic representation of information" data-placement="top">Data visualisation</a> is useful mainly in two ways:</p>
+                    <ul class="mt-2">
+                        <li>Studying the data in a way more suited for the human mind and understanding, e.g. visual input vs. data in rows and columns.</li>
+                        <li>Presenting findings and observations to a third party.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="row mt-4" id="topic-cards">
+                <div class="card col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">Transcription data</h4>
+                      <h6 class="card-subtitle mb-2">Historiolinguistics</h6>
+                      <p class="card-text">
+                        Data analysis and visualisation as careful approach to known historiolinguistical questions
+                      </p>
+                      <a href="transcr.html" class="card-link">Visualisations</a>
+                    </div>
+                  </div>
+                  <div class="card col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">Semantic annotation data</h4>
+                      <h6 class="card-subtitle mb-2">Categorization and comparisons</h6>
+                      <p class="card-text">
+                        Comparing cooking recipes and culinary heritage via their mentioned ingredients, tools and dishes
+                      </p>
+                      <a href="sem_anno.html" class="card-link">Visualisations</a>
+                    </div>
+                  </div>  
+            </section>
+            
+            <section class="row mt-4" id="furth-read">
+                <div class="col-md-4"><h2>Further Reading</h2></div>
+                <div class="col-md-8">
+                    <ul class="mt-2">
+                        <li>Rehbein, Malte (2017): Informationsvisualisierung. In: Digital Humanities. Eine Einführung.
+                            Hrsg. von Fotis Jannidis, Hubertus Kohle und Malte Rehbein. Stuttgart: Metzler.
+                            S. 328-342.
+                            </li>
+                        <li>Friendly, Michael (2008): A Brief History of Data Visualization. In: Handbook of data visualization. Hrsg. von Antony Unwin, Chun-houh Chen, Wolfgang Härdle und Unwin. Berlin: Springer. S. 16-56.</li>
+                        <li>Walker Rettberg, Jill (2020): Ways of knowing with data visualizations. In: Data Visualization in Society. Hrsg. von Martin Engebretsen und Helen Kennedy. Amsterdam: Amsterdam University Press . S. 35-48.</li>
+                        <li>Fischer-Stabel, Peter (2018): Datenvisualisierung. Vom Diagramm zur Virtual Reality. Unter Mitarbeit von Christoph Göttert und Jens Schneider. München: UVK.</li>
+                    </ul>
+                </div>
+            </section>
+            </main>
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-12" itemscope itemtype="https://schema.org/Person">
+                    <h6>Contact Information</h6>
+                    <p><span itemprop="name">Julia Eibinger</span><br/>
+                    <span itemprop="email">ju.eibinger@gmail.com</span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

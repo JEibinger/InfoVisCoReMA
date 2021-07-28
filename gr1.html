@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Graz, Ms. 1609 - Transcription Data</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.tt').tooltip(); 
+        });
+        </script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>        
+      <link rel="stylesheet" type="text/css" href="css/all.css"/>
+      <meta id="DescEn" lang="en" name="description_en" content="Visualisations of data from the CoReMA project"/>
+      <meta id="DescDe" lang="de" name="description_de" content="Datenvisualisierungen aus dem CoReMA Projekt"/>
+      <meta id="Key" name="keywords" content="medieval, recipes, cooking, manuscript, transcription, annotation, semantic web, data visualisation">
+      <meta itemscope itemtype="https://schema.org/Person" name="author" content="Julia Eibinger"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+	</head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Visualisation of CoReMA data</h1>
+                    <h2>Graz, Universitätsbibliothek, Ms. 1609</h2>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid rounded logo" src="pic/logo.png" title="page logo" alt="CoReMA visualisation page logo" width="100" height="100">
+                </div>
+            </div>
+        </header>
+        <nav class="nav navbar-expand-md bg-light sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="method.html">Method</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sem_anno.html">Semantic Annotation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Transcription
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="transcr.html">Introduction</a>
+                    <a class="dropdown-item" href="gr1.html">Graz, Ms. 1609</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main class="container">
+                <section class="row mt-4">
+                    <div class="col-md-4"><h2>Position placement of long-s and round-s in the <a href="http://gams.uni-graz.at/o:corema.gr1">manuscript Gr1</a></h2></div>
+                    <div class="col-md-8"><p>A larger dataset provides a more suitable base for paleographic comparison. The Gr1 manuscript contains far more folios than the <a href="transcr.html">B2</a>, namely 168 with 3867 lines.</p>
+                    <p>The manuscript contains <b>5087 long-s</b> and a little more than half as many <b>round-s, 2586</b>.</p></div>
+                    <div class="col-md-12 bar" id="distribGr1"></div>
+                </section>
+                <section class="row mt-4">
+                    <div class="col-md-4"><h2>Double s and combinations</h2></div>
+                    <div class="col-md-8"><p>The double s is a common occurence in German medieval manuscripts.<br>But how are these occurences constituted? What combinations of s are the most frequent?</p>
+                        <p>To answer these questions, the next charts show the distribution between double long-s, double round-s and the combination of both as well as in case of combination which one leads more often.</p></div>
+                    <div class="col-md-4" id="doublesGr1Text"><p>The distribution is very uneven.</p>
+                        <p>Of 732 double s occurences overall, 487 consist of only long-s while only 2 are a double round-s. The combination of the two s in a double constellation is almost exactly half of the number of double long-s: 243.</p>
+                        <p>Meanwhile, no round-s is leading a combo constellation - all s combinations have a long-s as the leading character.</p>
+                        <p>While interesting, these findings are not surprising when the previously estimated position placement is taken into account. As the prevalent s in the final but not medial position, the round-s simply has not as much potential for double s constellations.</p>
+                    </div>
+                    <div class="col-md-8 bar" id="doublesGr1"></div>
+                </section>
+                <section class="row mt-4">
+                    <div class="col-md-4"><h2>Character occurences with long-s and round-s</h2></div>
+                    <div class="col-md-8"><p>Another interesting aspect is the occurence of characters next to the types of s. Most importantly the characters "ch" as well as "t" as they form a significant phonem and consonant cluster in combination with s.</p>
+                        <p>The overwhelming number of character combinations with "t" and "ch" occur with long-s.</p></div>
+                    <div class="col-md-12 graph" id="charswithsGr1"></div>
+                </section>
+                <section class="row mt-4">
+                    <div class="col-md-4"><h2>The placement of long-s across folios in Gr1</h2></div>
+                    <div class="col-md-8"><p>Except for the end of the manuscript, the distribution of position for long-s are not remarkable. The handshift, which occurs at the 69<sup>th</sup> folio is not noticeably.</p>
+                        <p>Starting at the 152<sup>nd</sup> folio there is a remarkable drop in initial long-s.</p></div>
+                    <div class="col-md-12 graph" id="slongAcrossGr1"></div>
+                </section>
+                <section class="row mt-4">
+                    <div class="col-md-4"><h2>The placement of round-s across folios in Gr1</h2></div>
+                    <div class="col-md-8"><p>Comparing the two graphs, we notice a significant drop in final round-s around the same folios, but a rise in initial round-s.</p></div>
+                    <div class="col-md-12 graph" id="snormAcrossGr1"></div>
+                </section>
+                <section class="row mt-4">
+                    <div class="col-md-4"><h2>Initial and medial s across folios in Gr1</h2></div>
+                    <div class="col-md-8"><p>Comparing the development of both s in the initial and medial positions show, that the round-s supplements the initial position like nowhere else in the entire manuscript.</p>
+                        <p><a href="http://gams.uni-graz.at/o:corema.gr1#Gr1_086v">The transcription</a> shows, that the folios in question contain Latin text as well as lists of dishes.</p></div>
+                    <div class="col-md-12 graph" id="bothsAcrossGr1"></div>
+                </section>
+            </main>
+            <footer class="container">
+                <div class="row">
+                    <div class="col-md-12" itemscope itemtype="https://schema.org/Person">
+                        <h6>Contact Information</h6>
+                        <p><span itemprop="name">Julia Eibinger</span><br/>
+                        <span itemprop="email">ju.eibinger@gmail.com</span></p>
+                    </div>
+                </div>
+            </footer>
+            <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            <script src="js/gr1.js"></script>  
+        </body>
+</html>
